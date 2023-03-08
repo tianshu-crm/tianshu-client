@@ -1,0 +1,54 @@
+@charset "UTF-8";
+.content-body {
+  background-color: #fff;
+  padding: 20px;
+  box-sizing: border-box;
+  border-radius: 8px 8px 8px 8px;
+}
+
+/* 表格居中 */
+.table-action {
+  margin-bottom: 10px;
+}
+
+/* 分页 */
+.table-page__action {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+  box-sizing: border-box;
+}
+
+.resetHeight {
+  height: calc(100vh - 115px);
+}
+
+.marginTop10 {
+  margin-top: 10px;
+}
+
+.marginRight10 {
+  margin-right: 10px;
+}
+
+.marginLeft10 {
+  margin-left: 10px;
+}
+
+.marginBottom10 {
+  margin-bottom: 10px;
+}
+
+.paddingBottom10 {
+  padding-bottom: 10px;
+}
+
+.borderBottom {
+  border-bottom: 1px solid #dcdfe6;
+}
+
+.user-content .userName {
+  font-weight: bold;
+  font-size: 20px;
+}

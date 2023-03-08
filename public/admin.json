@@ -1,0 +1,35 @@
+{
+	"code": 0,
+	"data": [
+		{
+			"path": "/home",
+			"name": "home",
+			"component": "home",
+			"meta": {
+				"title": "message.router.home",
+				"isLink": "",
+				"isHide": false,
+				"isKeepAlive": true,
+				"isAffix": true,
+				"isIframe": false,
+				"roles": ["admin", "common"],
+				"icon": "iconfont icon-shouye"
+			}
+		},
+		{
+			"path": "/personal",
+			"name": "personal",
+			"component": "personal/index",
+			"meta": {
+				"title": "message.router.personal",
+				"isLink": "",
+				"isHide": false,
+				"isKeepAlive": true,
+				"isAffix": false,
+				"isIframe": false,
+				"roles": ["admin", "common"],
+				"icon": "iconfont icon-gerenzhongxin"
+			}
+		}
+	]
+}
