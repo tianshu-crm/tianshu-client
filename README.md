@@ -46,14 +46,13 @@
     - 打通“预算-申请-报销-支付-核算-报表”全流程业务，实现无纸化办公
     - 通过与供应商、订单、合同、采购等管理模块深度协同，将业务与财务管理有机融合
 ## 技术栈
-*   后端：**`Java` `Spring Boot` `mysql`**
-*   前端：**`vue.js` `element-ui` `jsx` `vuex` `vue-router`**
+*   前端：**`vue.js` `element-ui` `vuex` `vue-router` `sass` `axios**
 *  如果你是前端，后端的这些技术选型对你是特别友好的，前端开发者可以较快速地上手。 如果你是后端，Spring boot又是一种广泛流行的语言，一切看起来也是那么得熟悉。
 ## 演示
 
 https\://demo.tianshuyixiao.com
 
-*   账户：admin
+*   账户：demo
 *   密码：123456
 
 ## 文档
@@ -68,6 +67,15 @@ https\://demo.tianshuyixiao.com
 * 前端：https://gitee.com/tianshu-crm/tianshu-client
 
 ## 运行
-### 配置修改
-### 代码编译
-### 部署
+
+# 安装依赖
+npm install --legacy-peer-deps
+
+# 运行项目
+npm run dev
+
+#安装其他依赖举列
+npm install file-saver --legacy-peer-deps
+
+### 打包
+npm run build
