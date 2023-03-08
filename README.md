@@ -68,14 +68,11 @@ https\://demo.tianshuyixiao.com
 
 ## 运行
 
-# 安装依赖
-npm install --legacy-peer-deps
+*   安装依赖：npm install --legacy-peer-deps
 
-# 运行项目
-npm run dev
+*   运行项目：npm run dev
 
-#安装其他依赖举列
-npm install file-saver --legacy-peer-deps
+*   安装其他依赖举列：npm install file-saver --legacy-peer-deps
 
-### 打包
-npm run build
+## 打包
+*   npm run build
