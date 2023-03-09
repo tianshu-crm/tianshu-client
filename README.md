@@ -66,13 +66,23 @@ https\://demo.tianshuyixiao.com
 * 后端：https://gitee.com/tianshu-crm/tianshu-server
 * 前端：https://gitee.com/tianshu-crm/tianshu-client
 
+## 环境
+
+*   `VUE2.0`
+
+*   `安装 cnpm、yarn`
+*   复制代码(桌面 cmd 运行) npm install -g cnpm --registry=https://registry.npm.taobao.org
+*   复制代码(桌面 cmd 运行) npm install -g yarn
+*   建议使用 cnpm，因为 yarn 有时会报错。npm install 安装报错的话，请使用 cnpm install。
+*   注意：node 需大于 12.xxx 小于等于 v16.14.0，否则安装依赖将报错。
+*   
 ## 运行
 
-*   安装依赖：npm install --legacy-peer-deps
+*   安装依赖：`npm install --legacy-peer-deps`
 
-*   运行项目：npm run dev
+*   运行项目：`npm run dev`
 
-*   安装其他依赖举列：npm install file-saver --legacy-peer-deps
+*   安装其他依赖举列：`npm install file-saver --legacy-peer-deps`
 
 ## 打包
-*   npm run build
+*   `npm run build`
