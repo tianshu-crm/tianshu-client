@@ -90,3 +90,5 @@ https\://demo.tianshuyixiao.com
 
 ## 打包
 *   `npm run build`
+*   打包成功后 , 生成了`dist`文件夹, 打包好的文件存放在里面。
+*   用工具`Xftp`, 把打包好的文件上传到你的服务器（用别的工具也可以）。
