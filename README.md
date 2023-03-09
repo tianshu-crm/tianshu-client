@@ -75,7 +75,7 @@ https\://demo.tianshuyixiao.com
 *   复制代码(桌面 cmd 运行) npm install -g yarn
 *   建议使用 cnpm，因为 yarn 有时会报错。npm install 安装报错的话，请使用 cnpm install。
 *   注意：node 需大于 12.xxx 小于等于 v16.14.0，否则安装依赖将报错。
-*   
+
 ## 运行
 
 *   安装依赖：`npm install --legacy-peer-deps`
@@ -83,6 +83,10 @@ https\://demo.tianshuyixiao.com
 *   运行项目：`npm run dev`
 
 *   安装其他依赖举列：`npm install file-saver --legacy-peer-deps`
+
+## 配置修改
+*   在根目录下的`vue.config.js`中修改`proxy`代理中`target`，即可修改访问后端地址。
+![image](https://user-images.githubusercontent.com/57344242/223893386-d56e344e-9f56-4d57-944d-76984172de06.png)
 
 ## 打包
 *   `npm run build`
